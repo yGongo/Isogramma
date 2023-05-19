@@ -7,3 +7,11 @@ La consegna consiste nel risolvere il problema dell'"isogramma". Un isogramma è
 ### Soluzione utilizzata con commenti al codice
 
 Codice scritto in C# e la soluzione proposta utilizza
+
+
+```csharp 
+ 
+
+
+
+

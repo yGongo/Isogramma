@@ -10,7 +10,17 @@ Codice scritto in C# e la soluzione proposta utilizza
 
 
 ```csharp 
- 
+word = word.ToLower();
+for (int i = 0; i < word.Length; i++)
+{
+    for (int j = 0; j < word.Length; j++)
+    {
+         if((word[i]==word[j]) && word[i]!='-' && word[i]!=' ' && (i!=j)){return false;}
+    }
+}
+return true;
+
+```
 
 
 
